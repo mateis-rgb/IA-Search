@@ -9,5 +9,26 @@ body {
 }
 
 .container {
-	
+	height: 95vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-group input {
+	border: none;
+}
+.form-group input:focus {
+	outline: none;
+}
+
+.footer {
+	height: 4vh;
+	padding-right: 10px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+
+	text-decoration: none;
 }
