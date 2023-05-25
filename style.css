@@ -1,6 +1,6 @@
 * {
 	font-family: "JetBrains Mono";
-	font-size: 1.01em;
+	font-size: 1.1em;
 }
 
 body {
@@ -8,19 +8,37 @@ body {
 	padding: 0;
 }
 
-.container {
-	height: 95vh;
-
+.form-group {
+	height: 50vh;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 1.2em;
 }
-
+.form-group form {
+	border: 1px solid #ccc;
+	border-left: 5px solid #e73e01;
+	border-radius: 5px;
+	background-color: #ccc;
+	padding: 6px;
+	width: 750px;
+}
 .form-group input {
 	border: none;
+	background: none;
+	width: 700px;
 }
 .form-group input:focus {
 	outline: none;
+}
+
+.results {
+	height: 40vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: start;
 }
 
 .footer {
